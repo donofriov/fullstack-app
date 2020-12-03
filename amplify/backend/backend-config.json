@@ -1,6 +1,6 @@
 {
     "auth": {
-        "fullstackappfc34c3d9": {
+        "fullstackapp8fb7a6b4": {
             "service": "Cognito",
             "providerPlugin": "awscloudformation",
             "dependsOn": [],
@@ -10,8 +10,7 @@
     "hosting": {
         "amplifyhosting": {
             "service": "amplifyhosting",
-            "providerPlugin": "awscloudformation",
-            "type": "manual"
+            "type": "cicd"
         }
     }
 }
